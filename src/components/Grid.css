@@ -1,0 +1,30 @@
+
+.grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(10, 30px);
+    gap: 1px;
+  }
+  
+  .cell {
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+  }
+  
+  .cell.wall {
+    background-color: black;
+  }
+  
+  .cell.player {
+    background-color: blue;
+  }
+  
+  .cell.enemy {
+    background-color: red;
+  }
+  .crawler{
+    display: flex;
+    justify-content: center;
+  }
